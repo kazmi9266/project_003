@@ -35,6 +35,7 @@ jobs:
     -name: Build React App
     run: yarn build 
      
+<<<<<<< HEAD
     -name: install surge
     run: npm install --global surge
 
@@ -42,3 +43,11 @@ jobs:
         
       run: surge ./ project_003 zeeshan.surge.su
         
+=======
+  -name: install surge
+  run: npm install --global surge
+-name: deploy surge
+      run:  surge ./ project_003 zeeshan.surge.su ${{secrets.SURGE_TOKEN}}
+
+
+>>>>>>> 31e67983a305c5ef3c1dbdd82e71668843aa4b85
