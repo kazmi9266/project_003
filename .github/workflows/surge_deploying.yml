@@ -40,5 +40,5 @@ jobs:
 
      -name: deploy surge
         
-       run: surge ./ project_003 zeeshan.surge.su
+      run: surge ./ project_003 zeeshan.surge.su
         
