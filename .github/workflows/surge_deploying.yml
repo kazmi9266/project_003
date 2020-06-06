@@ -27,7 +27,7 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
             node-version : 12 
-    - uses: borales/actions-yarn@v2.1.0
+    - uses: borales/actions-yarn@v1.22.4
       with:
          cmd: install # will run yarn install command
 
