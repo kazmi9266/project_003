@@ -6,7 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
         
+=======
+      Syed Zeeshan Haider PIAIC Student
+>>>>>>> b9b3d99560d54c1add6f2efeb5b8bbac16b416d1
         <p>
         Syed Zeeshan Haider PIAIC Studend
         </p>
